@@ -8,19 +8,23 @@ import { useState } from "react";
 
 const blogDesktop = [
   {
-    id: 10301,
-    src: "/images/home/home_web.png",
+    id: 10401,
+    src: "/images/product-detail/detail_web_1.png",
+  },
+  {
+    id: 10402,
+    src: "/images/product-detail/detail_web_2.png",
   },
 ];
 
 const blogMobile = [
   {
-    id: 10302,
-    src: "/images/home/home_mob.png",
+    id: 10403,
+    src: "/images/product-detail/detail_mob_1.png",
   },
   {
-    id: 10303,
-    src: "/images/home/home_side.png",
+    id: 10404,
+    src: "/images/product-detail/detail_mob_2.png",
   },
 ];
 

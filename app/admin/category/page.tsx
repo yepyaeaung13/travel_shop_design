@@ -8,19 +8,43 @@ import { useState } from "react";
 
 const blogDesktop = [
   {
-    id: 10301,
-    src: "/images/home/home_web.png",
+    id: 20401,
+    src: "/images/admin/category/category_web_1.png",
+  },
+  {
+    id: 20402,
+    src: "/images/admin/category/category_web_2.png",
+  },
+  {
+    id: 20403,
+    src: "/images/admin/category/category_web_3.png",
+  },
+  {
+    id: 20404,
+    src: "/images/admin/category/category_web_4.png",
   },
 ];
 
 const blogMobile = [
   {
-    id: 10302,
-    src: "/images/home/home_mob.png",
+    id: 20405,
+    src: "/images/admin/category/category_mob_1.png",
   },
   {
-    id: 10303,
-    src: "/images/home/home_side.png",
+    id: 20406,
+    src: "/images/admin/category/category_mob_2.png",
+  },
+  {
+    id: 20407,
+    src: "/images/admin/category/category_mob_3.png",
+  },
+  {
+    id: 20408,
+    src: "/images/admin/category/category_mob_4.png",
+  },
+  {
+    id: 20409,
+    src: "/images/admin/category/category_mob_5.png",
   },
 ];
 

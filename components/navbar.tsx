@@ -5,17 +5,18 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const routes = [
-  { id: 1, pathName: "/", name: "Home" },
-  { id: 2, pathName: "/about-us", name: "About Us" },
-  { id: 3, pathName: "/service", name: "Services" },
-  { id: 5, pathName: "/contact-us", name: "Contact Us" },
-  { id: 6, pathName: "/blog", name: "Blog" },
-  { id: 7, pathName: "/activity", name: "Activity" },
+  { id: 1, pathName: "/login", name: "Login" },
+  { id: 2, pathName: "/register", name: "Register" },
+  { id: 3, pathName: "/", name: "Home" },
+  { id: 4, pathName: "/product-detail", name: "Product Detail" },
+  { id: 5, pathName: "/cart", name: "Cart" },
+  { id: 6, pathName: "/checkout", name: "Checkout" },
+  { id: 7, pathName: "/admin/login", name: "Admin" },
 ];
 
 export function Navbar() {
   const pathname = usePathname();
-  if (pathname === "/admin") return;
+  if (pathname.startsWith("/admin")) return <AdminNavbar />;
   return (
     <header className="fixed mx-auto md:bottom-5 bottom-0 left-0 w-full flex justify-center overflow-x-hidden">
       <nav className="mx-2 overflow-x-auto flex gap-3 md:bg-black/80 bg-black/70 p-2 rounded-full shadow-2xl">
@@ -37,7 +38,17 @@ export function Navbar() {
   );
 }
 
-const adminRoutes = [{ id: 1, pathName: "/admin", name: "Service Management" }];
+const adminRoutes = [
+  { id: 1, pathName: "/admin/login", name: "Login" },
+  { id: 2, pathName: "/admin/account", name: "Admin Account" },
+  { id: 3, pathName: "/admin/customer", name: "Customer Management" },
+  { id: 4, pathName: "/admin/product", name: "Product Management" },
+  { id: 5, pathName: "/admin/category", name: "Category Management" },
+  { id: 6, pathName: "/admin/order", name: "Order Management" },
+  { id: 7, pathName: "/admin/delivery", name: "Delivery Management" },
+  { id: 8, pathName: "/admin/wallet", name: "Wallet" },
+  { id: 9, pathName: "/", name: "Client" },
+];
 
 export function AdminNavbar() {
   const pathname = usePathname();
