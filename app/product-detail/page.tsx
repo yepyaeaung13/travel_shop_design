@@ -15,6 +15,10 @@ const blogDesktop = [
     id: 10402,
     src: "/images/product-detail/detail_web_2.png",
   },
+   {
+    id: 10403,
+    src: "/images/product-detail/detail_web_3.png",
+  },
 ];
 
 const blogMobile = [

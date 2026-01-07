@@ -22,6 +22,22 @@ const blogMobile = [
     id: 10303,
     src: "/images/home/home_side.png",
   },
+  {
+    id: 10304,
+    src: "/images/home/home_side1.png",
+  },
+  {
+    id: 10305,
+    src: "/images/home/home_side2.png",
+  },
+  {
+    id: 10306,
+    src: "/images/home/home_side3.png",
+  },
+  {
+    id: 10307,
+    src: "/images/home/home_side4.png",
+  },
 ];
 
 export default function Page() {
