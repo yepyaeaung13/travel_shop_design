@@ -7,10 +7,13 @@ import { usePathname } from "next/navigation";
 const routes = [
   { id: 1, pathName: "/login", name: "Login" },
   { id: 2, pathName: "/register", name: "Register" },
+  { id: 3, pathName: "/landing", name: "Landing" },
   { id: 3, pathName: "/", name: "Home" },
+  { id: 8, pathName: "/category", name: "Categories" },
   { id: 4, pathName: "/product-detail", name: "Product Detail" },
   { id: 5, pathName: "/cart", name: "Cart" },
   { id: 6, pathName: "/checkout", name: "Checkout" },
+  { id: 9, pathName: "/myaccount", name: "My Account" },
   { id: 7, pathName: "/admin/login", name: "Admin" },
 ];
 

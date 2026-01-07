@@ -43,12 +43,16 @@ const blogMobile = [
     src: "/images/checkout/check_mob_3.png",
   },
   {
-    id: 10609,
-    src: "/images/checkout/check_mob_4.png",
-  },
-  {
     id: 10610,
     src: "/images/checkout/check_mob_5.png",
+  },
+  {
+    id: 10611,
+    src: "/images/checkout/check_mob_6.png",
+  },
+  {
+    id: 10612,
+    src: "/images/checkout/check_mob_7.png",
   },
 ];
 

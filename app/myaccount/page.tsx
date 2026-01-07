@@ -9,30 +9,58 @@ import { useState } from "react";
 const blogDesktop = [
   {
     id: 10401,
-    src: "/images/product-detail/detail_web_1.png",
+    src: "/images/myaccount/account_web_1.png",
   },
   {
     id: 10402,
-    src: "/images/product-detail/detail_web_2.png",
+    src: "/images/myaccount/account_web_2.png",
   },
    {
     id: 10403,
-    src: "/images/product-detail/detail_web_3.png",
+    src: "/images/myaccount/account_web_3.png",
+  },
+   {
+    id: 10404,
+    src: "/images/myaccount/account_web_4.png",
+  },
+   {
+    id: 10405,
+    src: "/images/myaccount/account_web_5.png",
+  },
+   {
+    id: 10406,
+    src: "/images/myaccount/account_web_6.png",
+  },
+   {
+    id: 10407,
+    src: "/images/myaccount/account_web_7.png",
   },
 ];
 
 const blogMobile = [
   {
-    id: 10403,
-    src: "/images/product-detail/detail_mob_1.png",
+    id: 10408,
+    src: "/images/myaccount/account_mob_1.png",
   },
   {
-    id: 10404,
-    src: "/images/product-detail/detail_mob_2.png",
+    id: 10409,
+    src: "/images/myaccount/account_mob_2.png",
   },
    {
-    id: 10405,
-    src: "/images/product-detail/detail_mob_3.png",
+    id: 10410,
+    src: "/images/myaccount/account_mob_4.png",
+  },
+   {
+    id: 10411,
+    src: "/images/myaccount/account_mob_5.png",
+  },
+   {
+    id: 10412,
+    src: "/images/myaccount/account_mob_6.png",
+  },
+   {
+    id: 10413,
+    src: "/images/myaccount/account_mob_7.png",
   },
 ];
 

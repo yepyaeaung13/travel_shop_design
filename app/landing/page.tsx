@@ -9,31 +9,15 @@ import { useState } from "react";
 const blogDesktop = [
   {
     id: 10401,
-    src: "/images/product-detail/detail_web_1.png",
-  },
-  {
-    id: 10402,
-    src: "/images/product-detail/detail_web_2.png",
-  },
-   {
-    id: 10403,
-    src: "/images/product-detail/detail_web_3.png",
-  },
+    src: "/images/landing/landing_web_1.png",
+  }
 ];
 
 const blogMobile = [
   {
-    id: 10403,
-    src: "/images/product-detail/detail_mob_1.png",
-  },
-  {
-    id: 10404,
-    src: "/images/product-detail/detail_mob_2.png",
-  },
-   {
-    id: 10405,
-    src: "/images/product-detail/detail_mob_3.png",
-  },
+    id: 10408,
+    src: "/images/landing/landing_mob_1.png",
+  }
 ];
 
 export default function Page() {
